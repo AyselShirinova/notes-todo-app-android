@@ -16,11 +16,6 @@ _- Local data storage using Room db_
  _-**Room DB**-local data storage_
  _-**LiveData & ViewModel** - reactive UI
 
- **#📱Screenshots**
- ![completed ss](https://github.com/user-attachments/assets/7e41e2ff-7436-4b3d-a105-f00993a84e50)
-![todo](https://github.com/user-attachments/assets/30057934-a717-4b02-a2b3-f3273448403e)
-![notes](https://github.com/user-attachments/assets/5cd2f354-45dd-4d2a-a48f-bae2faba5ce2)
-
 **#⚡How to run**
 _1.Clone the repository: 
 '''bash
