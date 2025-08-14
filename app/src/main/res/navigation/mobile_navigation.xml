@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/notes_fragment">
+
+    <fragment
+        android:id="@+id/notes_fragment"
+        android:name="com.cscorner.notestodoapp.ui.notes.NotesFragment"
+        android:label="@string/notes"
+        tools:layout="@layout/fragment_notes" >
+        <action
+            android:id="@+id/action_notes_fragment_to_addNoteFragment"
+            app:destination="@id/addNoteFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/todo_fragment"
+        android:name="com.cscorner.notestodoapp.ui.todo.ToDoFragment"
+        android:label="@string/to_do"
+        tools:layout="@layout/fragment_to_do" >
+        <action
+            android:id="@+id/action_todo_fragment_to_addToDo"
+            app:destination="@id/addToDo" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/completed_fragment"
+        android:name="com.cscorner.notestodoapp.ui.completed.CompletedFragment"
+        android:label="@string/completed"
+        tools:layout="@layout/fragment_completed_todo" />
+    <fragment
+        android:id="@+id/addToDo"
+        android:name="com.cscorner.notestodoapp.ui.todo.ToDoFragment"
+        android:label="AddToDo" />
+    <fragment
+        android:id="@+id/addNoteFragment"
+        android:name="com.cscorner.notestodoapp.ui.notes.AddNoteFragment"
+        android:label="AddNoteFragment" />
+</navigation>

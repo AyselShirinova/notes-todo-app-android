@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_note">New Note</string>
+    <string name="note_title">Note title</string>
+    <string name="write_note">Write note...</string>
+    <string name="save">Save</string>
+    <string name="new_to_do">New to do</string>
+    <string name="add_to_do">Add to do...</string>
+</resources>
